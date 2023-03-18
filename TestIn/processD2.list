@@ -1,0 +1,26 @@
+Processes P22 10 P23 15 P24 20 P25 25
+Resources R11 R12 R13 R14 R15
+
+Process P22
+  req R11
+  req R13
+  rel R13
+  rel R11
+
+Process P23
+  req R11
+  req R14
+  rel R14
+  rel R11
+
+Process P24
+  req R11
+  req R15
+  rel R15
+  rel R11
+
+Process P25
+  req R12
+  req R13
+  rel R13
+ 

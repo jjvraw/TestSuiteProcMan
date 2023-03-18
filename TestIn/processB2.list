@@ -1,0 +1,21 @@
+Processes P5 2 P6 4 P2 9 P7 7
+
+Process P5
+ req R1
+ rel R1
+ req R2
+ rel R2
+
+Process P6
+ req R2
+ req R3
+ rel R3
+ rel R2
+
+Process P2
+ req R1
+ rel R1
+
+Process P7
+ req R3
+ rel R3
