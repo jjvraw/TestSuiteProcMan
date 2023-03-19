@@ -27,13 +27,17 @@ def execute_command_in_directory(command, directory):
 
 if __name__ == '__main__':
     fp = sys.argv[1]
-    arr = {chr(i): chr(i) for i in range(ord('A'), ord('F')+1)}
-    arr['A'] = "Priority Schedulet 1 - Given Test Case"
-    arr['B'] = "Priority Scheduler 2 - Duplicate Process Names with Different Priorities"
+    arr = {chr(i): chr(i) for i in range(ord('A'), ord('I')+1)}
+    arr['A'] = "Priority Scheduler 1 - Given Test Case"
+    arr['B'] = "Priority Scheduler 2 - Multiple Processes Same Priority"
     arr['C'] = "Priority Scheduler 3 - Duplicate Resource Names"
     arr['D'] = "Priority Scheduler 4 - Long Boy"
     arr['E'] = "FCFS 1 - Given Test Case"
-    arr['F'] = "FCFS 2 - Longer Test Case"
+    arr['F'] = "FCFS 2 - Long Test Case"
+    arr['G'] = 'Deadlock 1 (Priority Scheduler) - Multiple Deadlocks'
+    arr['H'] = "Priority Scheduler 5 - Longer Boy"
+    arr['I'] = "FCFS 3 - Longer Test Case"
+    arr['J'] = 'Deadlock 2 (Priority Scheduler) - Two Proccesses Locked'
 
     GREEN = '\033[92m'
     RED = '\033[91m'

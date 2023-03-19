@@ -1,5 +1,4 @@
-Processes P5 1
-Resources R1 R2
+Processes P5 2
 
 Process P5
   req R1

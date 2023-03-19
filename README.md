@@ -7,10 +7,12 @@
 
 ---
 TestCases: 
-1. Priority Schedulet 1 - Given Test Case
-2. Priority Scheduler 2 - Duplicate Process Names with Different Priorities
+1. Priority Scheduler 1 - Given Test Case
+2. Priority Scheduler 2 - Multiple Processes Same Priority
 3. Priority Scheduler 3 - Duplicate Resource Names
 4. Priority Scheduler 4 - Long Boy
 5. FCFS 1 - Given Test Case
 6. FCFS 2 - Longer Test Case
+7. Deadlock 1 - Multiple Deadlocks
+8. Deadlock 2 (Priority Scheduler) - Two Proccesses Locked
 ---

@@ -1,0 +1,107 @@
+P7 req R3: acquired
+P11: ready
+P7 rel R3: released
+P12: ready
+P7 req R5: acquired
+P13: ready
+P7 rel R5: released
+P14: ready
+P6 req R1: acquired
+P15: ready
+P6 req R2: acquired
+P16: ready
+P6 rel R1: released
+P17: ready
+P6 rel R2: released
+P18: ready
+P4 req R3: acquired
+P19: ready
+P4 rel R3: released
+P20: ready
+P4: ready
+P20 req R1: acquired
+P20 req R3: acquired
+P20 req R4: acquired
+P20 rel R1: released
+P20 rel R3: released
+P20 rel R4: released
+P10 req R1: acquired
+P10 req R5: acquired
+P10 req R3: acquired
+P10 rel R1: released
+P10 rel R5: released
+P10 rel R3: released
+P12 req R1: acquired
+P12 req R4: acquired
+P12 rel R1: released
+P12 rel R4: released
+P17 req R1: acquired
+P17 req R4: acquired
+P17 rel R1: released
+P17 rel R4: released
+P4 req R4: acquired
+P4 rel R4: released
+P1 req R1: acquired
+P1 rel R1: released
+P1 req R2: acquired
+P1 rel R2: released
+P1 req R3: acquired
+P1 rel R3: released
+P9 req R1: acquired
+P9 req R4: acquired
+P9 rel R1: released
+P9 rel R4: released
+P14 req R1: acquired
+P14 req R3: acquired
+P14 req R4: acquired
+P14 rel R3: released
+P14 rel R4: released
+P14 rel R1: released
+P18 req R1: acquired
+P18 req R3: acquired
+P18 req R4: acquired
+P18 rel R3: released
+P18 rel R4: released
+P18 rel R1: released
+P2 req R2: acquired
+P2 req R4: acquired
+P2 rel R2: released
+P2 rel R4: released
+P2 req R5: acquired
+P2 rel R5: released
+P8 req R2: acquired
+P8 req R4: acquired
+P8 rel R2: released
+P8 rel R4: released
+P13 req R1: acquired
+P13 req R3: acquired
+P13 req R4: acquired
+P13 rel R1: released
+P13 rel R3: released
+P13 rel R4: released
+P16 req R1: acquired
+P16 req R3: acquired
+P16 rel R1: released
+P16 rel R3: released
+P3 req R1: acquired
+P3 req R5: acquired
+P3 rel R1: released
+P3 rel R5: released
+P11 req R1: acquired
+P11 rel R1: released
+P11 req R3: acquired
+P11 rel R3: released
+P19 req R1: acquired
+P19 req R4: acquired
+P19 rel R1: released
+P19 rel R4: released
+P5 req R1: acquired
+P5 req R2: acquired
+P5 req R3: acquired
+P5 rel R2: released
+P5 rel R3: released
+P5 rel R1: released
+P15 req R3: acquired
+P15 rel R3: released
+P15 req R4: acquired
+P15 rel R4: released
