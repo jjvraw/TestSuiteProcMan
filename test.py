@@ -47,9 +47,9 @@ if __name__ == '__main__':
         execute_command_in_directory('make clean', fp)
         execute_command_in_directory('make', fp)
         if arr[i].startswith("FCFS") == False:
-            execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcman/TestIn/process' + i + '2.list 0 2', fp)
+            execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcMan/TestIn/process' + i + '2.list 0 2', fp)
         else: 
-            execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcman/TestIn/process' + i + '2.list 2 2', fp)
+            execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcMan/TestIn/process' + i + '2.list 2 2', fp)
 
         if compare_files(fp + "scheduler.log", "TestOut/" + i+ ".log"): 
             print(f'{GREEN}[PASSED]{END} {arr[i]}')    
