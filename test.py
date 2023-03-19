@@ -46,7 +46,7 @@ if __name__ == '__main__':
     for i in arr:
         execute_command_in_directory('make clean', fp)
         execute_command_in_directory('make', fp)
-        if arr[i].startswith("FCFS") == False:
+        if arr[i].startswith("Deadlock") == True:
             execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcMan/TestIn/process' + i + '2.list 0 2', fp)
         else: 
             execute_command_in_directory('./schedule_processes ../../../TestSuiteProcMan/TestIn/process' + i + '1.list ../../../TestSuiteProcMan/TestIn/process' + i + '2.list 2 2', fp)
