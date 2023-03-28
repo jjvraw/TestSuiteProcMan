@@ -8,8 +8,8 @@ P2 req R1: waiting
 Deadlock detected: P7 -> P2 -> P7
 P7: ready
 P7 req R2: acquired
-P2: ready
 P7 rel R2: released
+P2: ready
 P7 rel R1: released
 P2 req R2: acquired
 P2 req R1: acquired

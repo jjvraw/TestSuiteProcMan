@@ -18,13 +18,13 @@ P2 req R1: waiting
 Deadlock detected: P1 -> P2 -> P1
 P1: ready
 P1 req R2: acquired
-P5: ready
 P1 rel R1: released
+P5: ready
 P1: ready
 P5 req R1: acquired
 P5 req R2: waiting
-P4: ready
 P1 rel R2: released
+P4: ready
 P4 req R2: acquired
 P4 req R1: waiting
 Deadlock detected: P5 -> P4 -> P5
@@ -34,15 +34,15 @@ P2 req R1: waiting
 Deadlock detected: P5 -> P2 -> P5
 P5: ready
 P5 req R2: acquired
-P3: ready
 P5 rel R1: released
-P4: ready
+P3: ready
 P5 rel R2: released
+P4: ready
 P3 req R1: acquired
 P3 req R2: acquired
 P3 rel R1: released
-P2: ready
 P3 rel R2: released
+P2: ready
 P4 req R2: acquired
 P4 req R1: acquired
 P4 rel R2: released
